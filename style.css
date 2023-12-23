@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    font-family: nunito;
 }
 nav{
     display: flex;
@@ -72,4 +73,94 @@ header #button2{
 }
 img{
     width: 40rem;
+}
+
+.Features-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 50px;
+}
+
+#circle{
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    background-color: #ECB283;
+}
+.cards-container{
+    display: flex;
+    gap: 50px ;
+    justify-content: center;
+}
+.card{
+    width: 15.75rem;
+    height: 22.25rem;
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 0px 20px;
+}
+.card p{
+text-align: center;
+}
+#hr{
+    background-color: #D9D9D9;
+    height: 1px;
+    width: 60%;
+    margin: auto;
+}
+.Pricing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.Pricing p{
+    width: 40%;
+    text-align: center;
+    margin-top: 0.625rem;
+    margin-bottom: 3.125rem;
+}
+.Pricing .cards-container .card{
+    width: 20rem;
+    height: 27.25rem;
+    background-color: #D9D9D9;
+}
+.Pricing .cards-container{
+    display: flex;   
+}
+
+footer{
+    position: relative;
+    height: 13.563rem;
+    background-color: #ECB283;
+}
+.social-media img{
+    width: 20px;
+}
+.footer-menu{
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+}
+.social-media{
+    position: absolute;
+    bottom: 40px;
+    right: 50px;
+}
+footer span{
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+#cat{
+    position: absolute;
+    left: 50px;
+    bottom: 70px;
 }
